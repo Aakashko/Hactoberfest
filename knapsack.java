@@ -23,6 +23,7 @@ class Knapsack {
         int wt[] = new int[] { 10, 20, 30 };
         int W = 50;
         int n = val.length;
+        System.out.println("Knpasack Problem");
         System.out.println(knapSack(W, wt, val, n));
     }
 }
